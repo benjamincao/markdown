@@ -22,7 +22,7 @@ MarkDown 介绍
 * * *
    
 <h2 id="overview">1. 概述</h2>
-Markdown 是一种轻量级的标记语言，它是专门针对web的一种书写格式，在语法上力争做到易读、易写、易编辑。  
+Markdown 是一种轻量级的标记语言，它是专门针对编写web文档而设计的一种书写格式，在语法上力争做到易读、易写、易编辑。  
 Markdown并不是要替代HTML语法，甚至跟HTML语法没有相似性，它的语法集很小，只是相应HTML tag的一个很小的子集。  
 从某种意义上说，HTML是一种发布格式（publishing format），Markdown是一种书写格式（writing format）。  
    
@@ -46,7 +46,7 @@ This is a first level header.
 This is a second level header.
 --
 
-在句首使用一到六个#可以声明一到六级标题。  
+在句首使用一到六个#可以声明一到六级标题。   
 Markdown:
 
 	# This is a first level header.
@@ -57,7 +57,7 @@ Markdown:
 	###### This is a sixth level header.
     
 当然，在句尾可以使用#来结束此行，这并不是必须的，甚至数量也是无所谓的。  
-**注意：#后不能包含空格，否则#将会被当作标题的一部分**。  
+**注意：#后不能包含空格，否则#将会被当作标题的一部分**。    
 Markdown:
 
 	# This is a first level header. ###
@@ -80,7 +80,7 @@ Output:
 换行需要在当前行结尾输入不少于两个空格，然后回车换行。不然，`<br>`是不会插入的。  
 
 <h3 id="paragraph">2.3 段落</h3>
-Markdown使用一个或者多个空行来标记段落。空行指的是不包含任何任何内容或者只包含空格，tab等的行。
+Markdown使用一个或者多个空行来标记段落。空行指的是不包含任何任何内容或者只包含空格，tab等的行。   
 Markdown:
 
 	Now is the time for all good men to come to the aid of their country. This is just a regular paragraph.
@@ -96,7 +96,7 @@ The quick brown fox jumped over the lazy dog's back.
 
 
 <h3 id="quote">2.4 引用</h3>
-Markdown使用>来表示引用。并且引用可以嵌套，只需要多加几个>即可。
+Markdown使用>来表示引用。并且引用可以嵌套，只需要多加几个>即可。   
 Markdown:
 
 	> This is the first level.
@@ -117,7 +117,7 @@ Output:
 >
 > back to the first level
 
-Markdown很智能，你不需要在每一行都添加>，只要在某段(用*空行区分*段)文本的第一行加一个">"，则这一段内容，都会直接被引用。
+Markdown很智能，你不需要在每一行都添加>，只要在某段(用*空行区分*段)文本的第一行加一个">"，则这一段内容，都会直接被引用。      
 Markdown:
 
 	> Now is the time for all good men to come to the aid of their country. 
@@ -134,16 +134,16 @@ This is just a regular paragraph.
 
 <h3 id="list">2.5 列表</h3>
 列表分为有序列表和无序列表。  
-无序列表使用 '*' '+' 或者 '-' 来表示。
+无序列表使用 '*' '+' 或者 '-' 来表示。    
 Markdown:
 
 	* 第一项
 	* 第二项
 	* 第三项
 
-	+ 第一项
-	+ 第二项
-	+ 第三项
+	> + 第一项
+	> + 第二项
+	> + 第三项
 
 	- 第一项
 	- 第二项
@@ -172,9 +172,9 @@ Markdown:
 	3. 第三项
 
 	
-	. 第二项
-	3. 第三项	
-	1. 第一项
+	5. 第一项
+	7. 第二项
+	1. 第三项
 
 Output:
 
@@ -184,10 +184,10 @@ Output:
 1. 第三项
 
 <h3 id="codeBlock">2.6 代码块</h3>
-代码块是用来标识程序或者源代码的。在Markdown中，标识代码块是很容易的，以空行开头，把代码块的每一行缩进4个空格或者一个tab即可。  
-代码块会在遇到不缩进的行或者到文档最后才结束。   
+代码块是用来标识程序或者源代码的。在Markdown中，标识代码块是很容易的，**以空行开头**，把代码块的每一行**缩进**4个空格或者一个tab即可。  
+代码块会在遇到**不缩进**的行或者到文档最后才结束。   
 在代码块中，&（ampersand）和<>(angle bracket)会被自动转义为HTML实体。因此在引入HTML代码片段时候就很方便了，拷贝黏贴后，缩进每一行，Markdown将处理所有转换的麻烦。  
-**注意** 在代码块中，所有的符号都是字面意思，不会被转义为Markdown的语法，例如文档例子中，都是使用了代码块来直接写例子的。   
+**注意：** 在代码块中，所有的符号都是字面意思，不会被转义为Markdown的语法，例如文档中的标记为Markdown的例子，都是使用了代码块来直接书写的。   
 
 Markdown: 
 
@@ -201,7 +201,7 @@ Markdown:
 	* 第二项
 	* 第三项
 
-在行内，可以使用反引号（` back quote）来标记一段代码。
+在行内，可以使用反引号（` back quote）来标记一段代码。    
 Markdown:
 
 	Get help from `man bash`
@@ -324,9 +324,9 @@ Markdown:
 
 Output:
 
-This is [an example][1] reference link.
-This is [another example][2] reference link.
-This is [third example][] reference link.
+This is [an example][1] reference link.   
+This is [another example][2] reference link.   
+This is [third example][] reference link.   
 
 [1]: http://example.com "example"
 [2]: http://anotherExample.com "another example"
@@ -349,7 +349,7 @@ Output:
 
 * * *
 
-<h2 id="backSlash">5. 转义符号"\"</h2>
+<h2 id="backSlash">4. 转义符号"\"</h2>
 在有意义的词前面添加转义符(backslash)，就消除了它的Markdown语法。
 Markdown:
 
@@ -361,7 +361,7 @@ We dont make it \*strong*\.
    
 * * *
 
-<h2 id="table">6. 表</h2>
+<h2 id="table">5. 表</h2>
  
 
 
