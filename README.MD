@@ -28,6 +28,8 @@ Markdown并不是要替代HTML语法，甚至跟HTML语法没有相似性，它�
 
 **本文档在标准Markdown语法的基础上，增加了Github的特殊语法支持（GitHub Flavored Markdown）。主要包括删除线(Strikethrough)，受保护的代码块模式(Fenced code blocks)，代码高亮显示(Highlight)，表(Table)等。**
 
+*如果需要访问标准的Markdown语法，请参考[Standard Markdown Syntax](https://github.com/benjamincao/markdown/blob/master/Standard/MarkDown.md)。*
+
 * * *
    
 <h2 id="blockElement">2. 块级元素</h2>
