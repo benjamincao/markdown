@@ -17,7 +17,6 @@ MarkDown 语法介绍
 		* [3.2.3 引用链接(reference)](#referenceLink)
 	* [3.3 图片](#image)
 * [4. 转义符号 \"\\\"](#backSlash)
-* [5. 表](#table)
    
 * * *
    
@@ -362,7 +361,6 @@ We dont make it \*strong*\.
    
 * * *
 
-<h2 id="table">5. 表</h2>
  
 
 
@@ -386,5 +384,4 @@ We dont make it \*strong*\.
 		* [3.2.3 引用链接(reference)](#referenceLink)
 	* [3.3 图片](#image)
 * [4. 转义符号 \"\\\"](#backSlash)
-* [5. 表](#table)
 
