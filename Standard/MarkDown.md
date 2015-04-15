@@ -1,4 +1,4 @@
-MarkDown 介绍
+MarkDown 语法介绍
 ===================================
 * [1. 概述](#概述)
 * [2. 块级元素](#blockElement)
@@ -350,7 +350,7 @@ Output:
 * * *
 
 <h2 id="backSlash">4. 转义符号"\"</h2>
-在有意义的词前面添加转义符(backslash)，就消除了它的Markdown语法。
+在有意义的词前面添加转义符(backslash)，就消除了它的Markdown语法。   
 Markdown:
 
 	We dont make it \*strong*\.
